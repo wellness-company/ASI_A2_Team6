@@ -20,7 +20,7 @@ namespace todoApi.Controllers
         {
             _context = context;
         }
-
+        //Empty Comment
         // GET: api/TodoItems
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TodoItemDTO>>> GetTodoItems()
